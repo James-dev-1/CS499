@@ -28,7 +28,7 @@ class TestKaliToolsGUI(unittest.TestCase):
     def test_update_command(self):
         """Test command building functionality"""
         # Set up test values
-        self.app.target_entry.insert(0, "192.168.1.1")
+        self.app.target_entry.insert(0, "172.20.242.40")
         self.app.port_entry.insert(0, "80,443")
         self.app.scan_type.set("-sS")
         self.app.timing_level.set(4)
@@ -45,7 +45,7 @@ class TestKaliToolsGUI(unittest.TestCase):
         self.assertIn("-T4", command)
         self.assertIn("-sC", command)
         self.assertIn("-O", command)
-        self.assertIn("192.168.1.1", command)
+        self.assertIn("172.20.242.40", command)
     
     def test_run_nmap_without_target(self):
         """Test that running nmap without a target shows an error"""
@@ -63,7 +63,7 @@ class TestKaliToolsGUI(unittest.TestCase):
         mock_popen.return_value = mock_process
         
         # Set a target and run
-        self.app.target_entry.insert(0, "192.168.1.1")
+        self.app.target_entry.insert(0, "172.20.242.40")
         
         # Execute
         self.app.run_nmap()
