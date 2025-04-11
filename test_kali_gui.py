@@ -157,7 +157,7 @@ class TestCommandExecution(unittest.TestCase):
         
         # Execute with mocked update_results to avoid GUI calls
         with patch.object(self.app, 'update_results') as mock_update:
-            self.app.execute_command("nmap -sS 192.168.1.1")
+            self.app.execute_command("nmap -sS 172.20.242.40")
             
             # Check results were updated
             self.assertEqual(mock_update.call_count, 4)  # 2 lines + "" + "Scan completed"
