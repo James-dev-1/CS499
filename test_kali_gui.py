@@ -6,7 +6,7 @@ import os
 
 # Import your application module
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from your_module_name import kali-linux-gui  # Adjust import based on your actual file name
+from kali_linux_gui import KaliToolsGUI  # Adjust import based on your actual file name
 
 class TestKaliToolsGUI(unittest.TestCase):
     
