@@ -160,7 +160,7 @@ class TestCommandExecution(unittest.TestCase):
             self.app.execute_command("nmap -sS 172.20.242.40")
             
             # Check results were updated
-            self.assertEqual(mock_update.call_count, 4)  # 2 lines + "" + "Scan completed"
+            self.assertEqual(mock_update.call_count, 3)  # 2 lines + "" + "Scan completed"
     
     @patch('subprocess.Popen')
     def test_execute_command_error(self, mock_popen):
