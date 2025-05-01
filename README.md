@@ -1,2 +1,6 @@
 # CS499
 CS499 Isaac and James Capstone Project
+Documentation
+______________________________________________________________________________________________
+
+Installing and running the script: 
