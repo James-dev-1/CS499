@@ -30,7 +30,7 @@ Once the script is run, a gui will be opened. There are multiple tabs in the gui
 ________________________________________________________________________________________________
 ## Roadmap
 
-In the future, features such as a dos tool tab, password sprayer tool tab, and brute force password tool tab are planned. 
+In the future, features such as a DoS tool tab, password sprayer tool tab, and brute force password tool tab are planned. 
 _________________________________________________________________________________________________
 ## Disclaimer
 
