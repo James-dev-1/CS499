@@ -1,8 +1,11 @@
 # CS499
+
 CS499 Isaac and James Capstone Project
+
 Documentation
 ______________________________________________________________________________________________
 This script has only been tested on Kali Linux, so the steps may be different for other distros. 
+
 Installing and running the script:
 
 Requirements: root access, git, python 3.11.8, nmap, and network connection
