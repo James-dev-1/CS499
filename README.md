@@ -9,6 +9,7 @@ This script has only been tested on Kali Linux, so the steps may be different fo
 Installing and running the script:
 
 Requirements: root access, git, python 3.11.8, nmap, and network connection
+
 Steps:
 
 Step 1: Navigate to the downloads folder using ``cd /home/(user)/Downloads/`` 
