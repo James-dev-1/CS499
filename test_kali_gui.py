@@ -1,3 +1,7 @@
+# Kali Linux Python Tool Version 1
+# Created by James and Isaac for CS499 Project
+# Prototype, does not fully function but has some functionality
+# Future plans include fixing bugs, adding more features
 import unittest
 import tkinter as tk
 from unittest.mock import MagicMock, patch
