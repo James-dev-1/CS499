@@ -1,3 +1,7 @@
+# Kali Linux Python Tool Version 2
+# Created by James and Isaac for CS499 Project
+# Fix major bugs from Version 1 and add script uploader and placeholder tab for future tools
+# Future plans include Cronjob
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
 import subprocess
@@ -36,7 +40,7 @@ class KaliToolsGUI:
         # Scan type section
         scan_frame = ttk.LabelFrame(self.nmap_frame, text="Scan Type")
         scan_frame.pack(fill=tk.X, padx=10, pady=5)
-        
+        # Options for nmap scan type 
         self.scan_type = tk.StringVar(value="-sS")
         ttk.Radiobutton(scan_frame, text="TCP SYN Scan (-sS)", variable=self.scan_type, value="-sS").grid(row=0, column=0, padx=5, pady=2, sticky=tk.W)
         ttk.Radiobutton(scan_frame, text="TCP Connect Scan (-sT)", variable=self.scan_type, value="-sT").grid(row=0, column=1, padx=5, pady=2, sticky=tk.W)
