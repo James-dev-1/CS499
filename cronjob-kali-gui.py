@@ -1,3 +1,7 @@
+# Kali Linux Python Tool Version 3
+# Created by James and Isaac for CS499 Project
+# Implement additional features compared to version 2 such as crontab and script uploader
+# Future plans include Denial of Service and Password Brute Force
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox, filedialog
 import subprocess
